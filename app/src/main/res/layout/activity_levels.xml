@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mine_shaft"
+    tools:context=".Levels">
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="@color/mine_shaft_dark"
+        android:text="1"
+        android:textColor="@color/silver"
+        android:textSize="19sp"
+        app:cornerRadius="@dimen/cardview_default_radius"
+        app:layout_constraintBottom_toTopOf="@+id/btn5"
+        app:layout_constraintEnd_toStartOf="@+id/btn2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtLevel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="LEVELS"
+        android:textColor="@color/silver"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="@+id/btnBack"
+        app:layout_constraintStart_toEndOf="@+id/btnBack"
+        app:layout_constraintTop_toTopOf="@+id/btnBack" />
+
+    <ImageButton
+        android:id="@+id/btnBack"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:background="#00FFFFFF"
+        android:scaleType="fitStart"
+        android:tint="#B8B8B8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/arrow_left" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:backgroundTint="@color/mine_shaft_dark"
+        android:text="3"
+        android:textColor="@color/silver"
+        android:textSize="19sp"
+        app:cornerRadius="@dimen/cardview_default_radius"
+        app:layout_constraintBottom_toBottomOf="@+id/btn2"
+        app:layout_constraintEnd_toStartOf="@+id/btn4"
+        app:layout_constraintStart_toEndOf="@+id/btn2"
+        app:layout_constraintTop_toTopOf="@+id/btn2" />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:backgroundTint="@color/mine_shaft_dark"
+        android:text="4"
+        android:textColor="@color/silver"
+        android:textSize="19sp"
+        app:cornerRadius="@dimen/cardview_default_radius"
+        app:layout_constraintBottom_toBottomOf="@+id/btn3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn3"
+        app:layout_constraintTop_toTopOf="@+id/btn3" />
+
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:backgroundTint="@color/mine_shaft_dark"
+        android:text="5"
+        android:textColor="@color/silver"
+        android:textSize="24sp"
+        app:cornerRadius="@dimen/cardview_default_radius"
+        app:layout_constraintBottom_toTopOf="@+id/btn9"
+        app:layout_constraintEnd_toStartOf="@+id/btn6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn1" />
+
+    <Button
+        android:id="@+id/btn7"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:backgroundTint="@color/mine_shaft_dark"
+        android:text="7"
+        android:textColor="@color/silver"
+        android:textSize="19sp"
+        app:cornerRadius="@dimen/cardview_default_radius"
+        app:layout_constraintBottom_toTopOf="@+id/btn11"
+        app:layout_constraintEnd_toStartOf="@+id/btn8"
+        app:layout_constraintStart_toEndOf="@+id/btn6"
+        app:layout_constraintTop_toBottomOf="@+id/btn3" />
+
+    <Button
+        android:id="@+id/btn8"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:backgroundTint="@color/mine_shaft_dark"
+        android:text="8"
+        android:textColor="@color/silver"
+        android:textSize="19sp"
+        app:cornerRadius="@dimen/cardview_default_radius"
+        app:layout_constraintBottom_toTopOf="@+id/btn12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn7"
+        app:layout_constraintTop_toBottomOf="@+id/btn4" />
+
+    <Button
+        android:id="@+id/btn9"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:backgroundTint="@color/mine_shaft_dark"
+        android:text="9"
+        android:textColor="@color/silver"
+        android:textSize="19sp"
+        app:cornerRadius="@dimen/cardview_default_radius"
+        app:layout_constraintBottom_toTopOf="@+id/btn13"
+        app:layout_constraintEnd_toStartOf="@+id/btn10"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn5" />
+
+    <Button
+        android:id="@+id/btn10"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:backgroundTint="@color/mine_shaft_dark"
+        android:text="10"
+        android:textColor="@color/silver"
+        android:textSize="19sp"
+        app:cornerRadius="@dimen/cardview_default_radius"
+        app:layout_constraintBottom_toTopOf="@+id/btn14"
+        app:layout_constraintEnd_toStartOf="@+id/btn11"
+        app:layout_constraintStart_toEndOf="@+id/btn9"
+        app:layout_constraintTop_toBottomOf="@+id/btn5" />
+
+    <Button
+        android:id="@+id/btn11"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:backgroundTint="@color/mine_shaft_dark"
+        android:text="11"
+        android:textColor="@color/silver"
+        android:textSize="19sp"
+        app:cornerRadius="@dimen/cardview_default_radius"
+        app:layout_constraintBottom_toTopOf="@+id/btn15"
+        app:layout_constraintEnd_toStartOf="@+id/btn12"
+        app:layout_constraintStart_toEndOf="@+id/btn10"
+        app:layout_constraintTop_toBottomOf="@+id/btn6" />
+
+    <Button
+        android:id="@+id/btn12"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:backgroundTint="@color/mine_shaft_dark"
+        android:text="12"
+        android:textColor="@color/silver"
+        android:textSize="19sp"
+        app:cornerRadius="@dimen/cardview_default_radius"
+        app:layout_constraintBottom_toTopOf="@+id/btn16"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn11"
+        app:layout_constraintTop_toBottomOf="@+id/btn7" />
+
+    <Button
+        android:id="@+id/btn13"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:backgroundTint="@color/mine_shaft_dark"
+        android:text="13"
+        android:textColor="@color/silver"
+        android:textSize="19sp"
+        app:cornerRadius="@dimen/cardview_default_radius"
+        app:layout_constraintBottom_toTopOf="@+id/btn17"
+        app:layout_constraintEnd_toStartOf="@+id/btn14"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn9" />
+
+    <Button
+        android:id="@+id/btn14"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:backgroundTint="@color/mine_shaft_dark"
+        android:text="14"
+        android:textColor="@color/silver"
+        android:textSize="19sp"
+        app:cornerRadius="@dimen/cardview_default_radius"
+        app:layout_constraintBottom_toTopOf="@+id/btn18"
+        app:layout_constraintEnd_toStartOf="@+id/btn15"
+        app:layout_constraintStart_toEndOf="@+id/btn13"
+        app:layout_constraintTop_toBottomOf="@+id/btn10" />
+
+    <Button
+        android:id="@+id/btn15"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:backgroundTint="@color/mine_shaft_dark"
+        android:text="15"
+        android:textColor="@color/silver"
+        android:textSize="19sp"
+        app:cornerRadius="@dimen/cardview_default_radius"
+        app:layout_constraintBottom_toTopOf="@+id/btn19"
+        app:layout_constraintEnd_toStartOf="@+id/btn16"
+        app:layout_constraintStart_toEndOf="@+id/btn14"
+        app:layout_constraintTop_toBottomOf="@+id/btn11" />
+
+    <Button
+        android:id="@+id/btn16"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:backgroundTint="@color/mine_shaft_dark"
+        android:text="16"
+        android:textColor="@color/silver"
+        android:textSize="19sp"
+        app:cornerRadius="@dimen/cardview_default_radius"
+        app:layout_constraintBottom_toTopOf="@+id/btn20"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn15"
+        app:layout_constraintTop_toBottomOf="@+id/btn11" />
+
+    <Button
+        android:id="@+id/btn17"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:backgroundTint="@color/mine_shaft_dark"
+        android:text="17"
+        android:textColor="@color/silver"
+        android:textSize="19sp"
+        app:cornerRadius="@dimen/cardview_default_radius"
+        app:layout_constraintBottom_toTopOf="@+id/btn21"
+        app:layout_constraintEnd_toStartOf="@+id/btn18"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn13" />
+
+    <Button
+        android:id="@+id/btn18"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:backgroundTint="@color/mine_shaft_dark"
+        android:text="18"
+        android:textColor="@color/silver"
+        android:textSize="19sp"
+        app:cornerRadius="@dimen/cardview_default_radius"
+        app:layout_constraintBottom_toTopOf="@+id/btn22"
+        app:layout_constraintEnd_toStartOf="@+id/btn19"
+        app:layout_constraintStart_toEndOf="@+id/btn17"
+        app:layout_constraintTop_toBottomOf="@+id/btn14" />
+
+    <Button
+        android:id="@+id/btn19"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:backgroundTint="@color/mine_shaft_dark"
+        android:text="19"
+        android:textColor="@color/silver"
+        android:textSize="19sp"
+        app:cornerRadius="@dimen/cardview_default_radius"
+        app:layout_constraintBottom_toTopOf="@+id/btn23"
+        app:layout_constraintEnd_toStartOf="@+id/btn20"
+        app:layout_constraintStart_toEndOf="@+id/btn18"
+        app:layout_constraintTop_toBottomOf="@+id/btn15" />
+
+    <Button
+        android:id="@+id/btn20"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:backgroundTint="@color/mine_shaft_dark"
+        android:text="20"
+        android:textColor="@color/silver"
+        android:textSize="19sp"
+        app:cornerRadius="@dimen/cardview_default_radius"
+        app:layout_constraintBottom_toTopOf="@+id/btn24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn19"
+        app:layout_constraintTop_toBottomOf="@+id/btn16" />
+
+    <Button
+        android:id="@+id/btn21"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:backgroundTint="@color/mine_shaft_dark"
+        android:text="21"
+        android:textColor="@color/silver"
+        android:textSize="19sp"
+        app:cornerRadius="@dimen/cardview_default_radius"
+        app:layout_constraintBottom_toTopOf="@+id/btn25"
+        app:layout_constraintEnd_toStartOf="@+id/btn22"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn17" />
+
+    <Button
+        android:id="@+id/btn25"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:backgroundTint="@color/mine_shaft_dark"
+        android:text="25"
+        android:textColor="@color/silver"
+        android:textSize="19sp"
+        app:cornerRadius="@dimen/cardview_default_radius"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btn26"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn21" />
+
+    <Button
+        android:id="@+id/btn26"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:backgroundTint="@color/mine_shaft_dark"
+        android:text="26"
+        android:textColor="@color/silver"
+        android:textSize="19sp"
+        app:cornerRadius="@dimen/cardview_default_radius"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btn27"
+        app:layout_constraintStart_toEndOf="@+id/btn25"
+        app:layout_constraintTop_toBottomOf="@+id/btn22" />
+
+    <Button
+        android:id="@+id/btn27"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:backgroundTint="@color/mine_shaft_dark"
+        android:text="27"
+        android:textColor="@color/silver"
+        android:textSize="19sp"
+        app:cornerRadius="@dimen/cardview_default_radius"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btn28"
+        app:layout_constraintStart_toEndOf="@+id/btn26"
+        app:layout_constraintTop_toBottomOf="@+id/btn23" />
+
+    <Button
+        android:id="@+id/btn28"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:backgroundTint="@color/mine_shaft_dark"
+        android:text="28"
+        android:textColor="@color/silver"
+        android:textSize="19sp"
+        app:cornerRadius="@dimen/cardview_default_radius"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn27"
+        app:layout_constraintTop_toBottomOf="@+id/btn24" />
+
+    <Button
+        android:id="@+id/btn22"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:backgroundTint="@color/mine_shaft_dark"
+        android:text="22"
+        android:textColor="@color/silver"
+        android:textSize="19sp"
+        app:cornerRadius="@dimen/cardview_default_radius"
+        app:layout_constraintBottom_toTopOf="@+id/btn26"
+        app:layout_constraintEnd_toStartOf="@+id/btn23"
+        app:layout_constraintStart_toEndOf="@+id/btn21"
+        app:layout_constraintTop_toBottomOf="@+id/btn18" />
+
+    <Button
+        android:id="@+id/btn23"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:backgroundTint="@color/mine_shaft_dark"
+        android:text="23"
+        android:textColor="@color/silver"
+        android:textSize="19sp"
+        app:cornerRadius="@dimen/cardview_default_radius"
+        app:layout_constraintBottom_toTopOf="@+id/btn27"
+        app:layout_constraintEnd_toStartOf="@+id/btn24"
+        app:layout_constraintStart_toEndOf="@+id/btn22"
+        app:layout_constraintTop_toBottomOf="@+id/btn19" />
+
+    <Button
+        android:id="@+id/btn24"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:backgroundTint="@color/mine_shaft_dark"
+        android:text="24"
+        android:textColor="@color/silver"
+        android:textSize="19sp"
+        app:cornerRadius="@dimen/cardview_default_radius"
+        app:layout_constraintBottom_toTopOf="@+id/btn28"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn23"
+        app:layout_constraintTop_toBottomOf="@+id/btn20" />
+
+    <Button
+        android:id="@+id/btn6"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:backgroundTint="@color/mine_shaft_dark"
+        android:text="6"
+        android:textColor="@color/silver"
+        android:textSize="19sp"
+        app:cornerRadius="@dimen/cardview_default_radius"
+        app:layout_constraintBottom_toTopOf="@+id/btn10"
+        app:layout_constraintEnd_toStartOf="@+id/btn7"
+        app:layout_constraintStart_toEndOf="@+id/btn5"
+        app:layout_constraintTop_toBottomOf="@+id/btn2" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:backgroundTint="@color/mine_shaft_dark"
+        android:text="2"
+        android:textColor="@color/silver"
+        android:textSize="19sp"
+        app:cornerRadius="@dimen/cardview_default_radius"
+        app:layout_constraintBottom_toBottomOf="@+id/btn1"
+        app:layout_constraintEnd_toStartOf="@+id/btn3"
+        app:layout_constraintStart_toEndOf="@+id/btn1"
+        app:layout_constraintTop_toTopOf="@+id/btn1" />
+</androidx.constraintlayout.widget.ConstraintLayout>
